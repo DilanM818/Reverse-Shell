@@ -18,14 +18,14 @@ This Python script creates a basic reverse shell server that listens for incomin
 1.  **Clone the repository (or download the script):**
 
     ```bash
-    git clone [repository URL]
-    cd [repository directory]
+    git clone https://github.com/DilanM818/Reverse-Shell
+    cd Reverse-Shell
     ```
 
 2.  **Make the script executable (if necessary):**
 
     ```bash
-    chmod +x reverse_shell_server.py
+    chmod +x reverseShell.py
     ```
 
 3.  **Run the server:**
@@ -37,9 +37,9 @@ This Python script creates a basic reverse shell server that listens for incomin
     You can optionally specify a different port using the `-p` or `--port` option:
 
     ```bash
-    ./reverse_shell_server.py -p 8080
+    ./reverseShell.py -p 8080
     # or
-    ./reverse_shell_server.py --port 8080
+    ./reverseShell.py --port 8080
     ```
 
     The server will start listening for connections on the specified port (default: 4444).
@@ -62,6 +62,4 @@ You can use `netcat` or a similar tool to connect to the server as a client.
 
 3.  **To close the connection from the client side, type `exit` and press Enter.**
 
-**Example Session:**
 
-**Server Terminal:**
