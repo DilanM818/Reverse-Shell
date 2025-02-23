@@ -19,7 +19,7 @@ This Python script creates a basic reverse shell server that listens for incomin
 
     ```bash
     git clone https://github.com/DilanM818/Reverse_Shell
-    cd Reverse-Shell
+    cd Reverse_Shell
     ```
 
 2.  **Make the script executable (if necessary):**
