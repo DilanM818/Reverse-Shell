@@ -31,7 +31,7 @@ This Python script creates a basic reverse shell server that listens for incomin
 3.  **Run the server:**
 
     ```bash
-    ./reverse_shell_server.py
+    ./reverseShell.py
     ```
 
     You can optionally specify a different port using the `-p` or `--port` option:
