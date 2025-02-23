@@ -25,7 +25,7 @@ This Python script creates a basic reverse shell server that listens for incomin
 2.  **Make the script executable (if necessary):**
 
     ```bash
-    chmod +x reverse-shell.py
+    chmod +x reverse_shell.py
     ```
 
 3.  **Run the server:**
