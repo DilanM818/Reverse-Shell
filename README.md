@@ -1,4 +1,4 @@
-# Simple Reverse Shell 
+# Simple Bind Shell 
 
 **Warning: This script is for educational purposes only and is highly insecure. Do not use it in production or against systems you do not own. It contains significant security vulnerabilities, particularly a shell injection vulnerability.**
 
@@ -18,28 +18,28 @@ This Python script creates a basic reverse shell server that listens for incomin
 1.  **Clone the repository (or download the script):**
 
     ```bash
-    git clone https://github.com/DilanM818/Reverse_Shell
-    cd Reverse_Shell
+    git clone https://github.com/DilanM818/Simple_Bind_Shell
+    cd Simple_Bind_Shell
     ```
 
 2.  **Make the script executable (if necessary):**
 
     ```bash
-    chmod +x reverse_shell.py
+    chmod +x simple_bind_shell.py
     ```
 
 3.  **Run the server:**
 
     ```bash
-    ./reverse_shell.py
+    ./simple_bind_shell.py
     ```
 
     You can optionally specify a different port using the `-p` or `--port` option:
 
     ```bash
-    ./reverse_shell.py -p 8080
+    ./simple_bind_shell.py -p 8080
     # or
-    ./reverse_shell.py --port 8080
+    ./simple_bind_shell.py --port 8080
     ```
 
     The server will start listening for connections on the specified port (default: 4444).
